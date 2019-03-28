@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.buttonContainer {
+  width: 500px;
+  margin: 20% auto;
+  text-align: center;
+}
+
+.container_btn_repeat_game {
+  width: 500px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.start_btn, .btn_repeat_game {
+  border-radius: 30px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.keyboard_letters {
+  width: 50px;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.firstLine_letters {
+  margin-bottom: 20px;  
+}
+
+.mask {
+  width: 800px;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.scr_letters {
+  margin: 0 10px;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace
+}
+
+.attemps {
+ font-size: 70px;
+ font-weight: bold;
+ text-align: center;
+}
+
+.btns_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
