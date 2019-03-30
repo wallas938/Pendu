@@ -36,7 +36,7 @@ export class Mask extends Component {
                 }
 
                 const myStyles = {
-                    color: 'black',
+                    color: 'green',
                     fontWeight: 'bold',
                     fontSize: 42,
                 }

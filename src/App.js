@@ -62,7 +62,6 @@ export class App extends Component {
       for (let index = 0; index < occurence; index++) {
         this.setState((prevState, props) => ({ goodAnswers: prevState.goodAnswers.concat(ltr) }))
       }
-      this.handleTries();
     }else {
       this.handleTries();
     }
@@ -73,7 +72,7 @@ export class App extends Component {
     if(!begin) {
       return (<div className="buttonContainer">
                 <button onClick={this.startGame} className="start_btn uk-button uk-button-danger uk-button-large">
-                COMMENCEZ ICI !
+                  COMMENCEZ ICI !
                 </button>
                 </div>)
     }else if (begin) {
